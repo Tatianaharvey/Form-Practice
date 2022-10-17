@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PoppinsRegular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 75vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.side-hero {
+    background-image: url(./flower.png);
+    flex-grow: 1;
+    position: relative;
+    width: 70vh;
+    min-width: 345px;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.title {
+    width: 100;
+    background-color: rgba(0, 0, 0, 0.7);
+    line-height: 2rem;
+    /* gap: 1vh; */
+    padding: 0px 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+}
+
+.logo {
+    width: 5rem;
+    padding: 10px;
+}
+
+.side-hero p {
+    font-size: .8rem;
+    color:
+}
