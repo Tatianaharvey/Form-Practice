@@ -19,7 +19,7 @@ body {
     max-width: 70%;
     border-radius: 1rem;
     box-shadow: 0 0 15px 2px #DDD;
-    overflow: scroll;
+    overflow:auto; 
 }
 
 .left-side {
@@ -135,6 +135,7 @@ input:focus {
 
 .button-area {
     padding-left: 2rem;
+    padding-bottom: 2rem;
 }
 
 button[type='submit'] {
