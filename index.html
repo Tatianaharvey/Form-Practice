@@ -44,11 +44,16 @@
                     <fieldset>
                             <div class="inputs">
                                 <label for="email">Email:</label>
-                                <input type="email" id="email" name="email">
+                                <input type="email" id="email" name="email" placeholder="you@example.com">
                             </div> 
                             <div class="inputs">
                                 <label for="phone">Phone Number</label>
-                                <input type="tel" id="phone" name="phone">
+                                <input 
+                                    type="tel" 
+                                    id="phone" 
+                                    name="phone" 
+                                    pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$"
+                                    placeholder="xxx-xxx-xxxx">
                             </div>
                     </fieldset>
 
@@ -72,6 +77,8 @@
         </main>
     </div>
 
+
+<script></script>
 
 </body>
 </html>
